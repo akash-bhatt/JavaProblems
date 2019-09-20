@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.prob.neighbour;
+package com.java.problems;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.test.neighbour;
+package com.java.test;
 
 import static org.junit.Assert.assertArrayEquals;
 
@@ -9,7 +9,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import com.prob.neighbour.Neighbour;
+import com.java.problems.Neighbour;
 
 /**
  * @author m_800199
@@ -19,7 +19,7 @@ class NeighbourTest {
 
 	/**
 	 * Test method for
-	 * {@link com.prob.neighbour.Neighbour#main(java.lang.String[])}.
+	 * {@link com.java.problems.Neighbour#main(java.lang.String[])}.
 	 */
 	@Test
 	void testSetStates_for_oneDay() {
