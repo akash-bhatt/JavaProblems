@@ -1,5 +1,5 @@
 # JavaProblems
-Neighbour Problem
+# Neighbour Problem
 
 1. Cell States are represented by 0 or 1. 
 2. If Left Neighbour and Right Neighbour are equal then state in inactive
@@ -8,7 +8,8 @@ Neighbour Problem
 5. Test Cases as added in Test Cases.
 
 
-GCD Problem
+# GCD Proble
+
 The greatest common divider (GCD), also called highest common factor(HCF) of N numbers is the largesty positive integer that divides all numbers without giving a remainder
 
 Write an algorithm to determine the GCD of N positive integers
