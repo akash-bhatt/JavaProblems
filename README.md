@@ -8,7 +8,7 @@
 5. Test Cases as added in Test Cases.
 
 
-# GCD Proble
+# GCD Problem
 
 The greatest common divider (GCD), also called highest common factor(HCF) of N numbers is the largesty positive integer that divides all numbers without giving a remainder
 
