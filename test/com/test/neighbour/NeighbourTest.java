@@ -39,5 +39,24 @@ class NeighbourTest {
 		assertArrayEquals(expectedStates, actualStates);
 
 	}
+	
+	@Test
+	void testSetStates_for_2Day() {
+
+		// setup arrange
+		int testState[] = new int[] { 1, 1, 1, 0, 1, 1, 1, 1 };
+		int days = 2;
+
+		// act
+		List<Integer> resultStates = new Neighbour().setStates(testState, days);
+
+		// assert
+	//	List<Integer> expectedStates = Arrays.asList(new Integer(0), new Integer(1), new Integer(0), new Integer(0),
+	//			new Integer(1), new Integer(0), new Integer(1), new Integer(0));
+		int[] expectedStates = new int[] { 0, 0, 0, 0, 0, 1, 1, 0 };		
+		int[] actualStates = resultStates.stream().mapToInt(Integer::intValue).toArray();
+		assertArrayEquals(expectedStates, actualStates);
+
+	}
 
 }
