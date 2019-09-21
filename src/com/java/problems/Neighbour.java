@@ -4,6 +4,7 @@
 package com.java.problems;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -32,13 +33,18 @@ public class Neighbour {
 	 */
 	public List<Integer> setStates(int[] states, int days)
 	{
-		List<Integer> newState = new ArrayList<>();
+		List<Integer> newState = null;
+		
+		int[] tmpstates= new int[states.length];
+		
 		while(days > 0)
-		{
-			int leftN = 0;
-			int rightN = 0;
+		{		
+			newState = new ArrayList<>();
 			for(int index = 0; index < states.length; index++) 
 			{
+				int leftN = 0;
+				int rightN = 0;
+				
 				if(index - 1 >= 0)
 				{
 					leftN = states[index-1];
@@ -48,8 +54,14 @@ public class Neighbour {
 					rightN = states[index + 1];
 				}
 				int state = leftN == rightN ? 0: 1;
-				newState.add(state);
+				tmpstates[index] = state;
+				newState.add(tmpstates[index]);
 			}
+			
+			states = Arrays.copyOf(tmpstates, tmpstates.length);
+			/*for(int i=0; i < tmpstates.length; i++) {
+				states[i] = tmpstates[i];
+			}*/
 			days--;
 		}
 		return newState;
