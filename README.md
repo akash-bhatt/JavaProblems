@@ -42,3 +42,21 @@ Input:
 
 Expected Output
 2
+
+# Factorial
+
+Calculate Factorial. fact(4) 4*3*2*1 = 24
+
+Input 4 
+Output 24
+
+#String Reversal
+
+Reverse a String
+
+Input
+Akash
+
+Output
+hsakA
+
