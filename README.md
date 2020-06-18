@@ -60,3 +60,10 @@ Akash
 Output
 hsakA
 
+# Fibonacci Series
+
+Print the nth element of Fibonacci Series
+
+input 11
+output 55
+
