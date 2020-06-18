@@ -67,3 +67,11 @@ Print the nth element of Fibonacci Series
 input 11
 output 55
 
+#Palindrome
+
+Check if the string is a palindrome
+
+input ababa
+
+output true
+
