@@ -75,3 +75,7 @@ input ababa
 
 output true
 
+#Insertion Sort
+
+Sort an array using Insertion Sort
+
