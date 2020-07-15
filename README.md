@@ -87,3 +87,9 @@ For example, with a left shift of 3, D would be replaced by A, E would become B,
 
 Sort an array using Insertion Sort
 
+#Binary Search
+Searching a sorted array using a Binary Search
+
+#SortHashMap
+Sort a Hashmap
+
